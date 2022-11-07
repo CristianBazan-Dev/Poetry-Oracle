@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="342.58px" height="482.157px" viewBox="0 0 342.58 482.157" enable-background="new 0 0 342.58 482.157"
+	 xml:space="preserve">
+<g id="_x36_">
+	<g id="Carta_-_frente">
+		
+			<rect x="1.178" y="1" fill="#FFFFFF" stroke="#010101" stroke-width="2" stroke-miterlimit="10" width="340.402" height="480.157"/>
+		<rect x="1" y="1" fill="#F7F6F5" stroke="#010101" stroke-width="2" stroke-miterlimit="10" width="340.402" height="480.157"/>
+		<g>
+			<rect x="1.178" y="1" fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" width="340.402" height="480.157"/>
+			
+				<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="1.178" y1="401.092" x2="341.582" y2="401.092"/>
+			
+				<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="1.178" y1="321.143" x2="341.582" y2="321.143"/>
+			
+				<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="1.178" y1="241.078" x2="341.582" y2="241.078"/>
+			
+				<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="1.178" y1="161.013" x2="341.582" y2="161.013"/>
+			<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="1.178" y1="81.064" x2="341.582" y2="81.064"/>
+			<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="284.82" y1="1" x2="284.82" y2="481.157"/>
+			<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="228.14" y1="1" x2="228.14" y2="481.157"/>
+			<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="171.378" y1="1" x2="171.378" y2="481.157"/>
+			<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="114.617" y1="1" x2="114.617" y2="481.157"/>
+			<line fill="none" stroke="#282561" stroke-width="2" stroke-miterlimit="10" x1="57.939" y1="1" x2="57.939" y2="481.157"/>
+		</g>
+		
+			<rect x="25.342" y="19.582" fill="#F3F2F4" stroke="#282561" stroke-width="2" stroke-miterlimit="10" width="295.65" height="442.596"/>
+		<path fill="#6B4099" stroke="#231F20" stroke-miterlimit="10" d="M92.702,414.579h-39c-6.449,0-6.449,10,0,10h39
+			C99.151,424.579,99.151,414.579,92.702,414.579z"/>
+		<text transform="matrix(1 0 0 1 227.7026 437.5786)" fill="#010101" font-family="'MyriadPro-Regular'" font-size="12">Laura Devetach</text>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 40.7983 69.979)" fill="#BE1E2D" font-family="'Montserrat-Regular'" font-size="36">Título</text>
+<text transform="matrix(1 0 0 1 40.7983 113.979)"><tspan x="0" y="0" font-family="'Montserrat-Regular'" font-size="21">Cuerpo de texto</tspan><tspan x="0" y="25.2" font-family="'Montserrat-Regular'" font-size="21">Texto cuerpeado</tspan><tspan x="0" y="50.4" font-family="'Montserrat-Regular'" font-size="21">Cuerpe texte.</tspan></text>
+</svg>

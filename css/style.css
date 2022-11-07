@@ -1,0 +1,407 @@
+/* Contenedor del grid */
+.grid-container{
+    display: grid; 
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr; 
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+}
+/* Header */
+
+header{
+    grid-area: header; 
+    background: var(--background);
+    color: var(--text);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem;
+}
+
+
+a {
+   text-decoration: none;
+   color: inherit; 
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    margin-right: auto; 
+    margin-top: 4px; 
+    padding: 5px; 
+}
+
+.logo-icon{
+    width: 50px;
+    height: 100%;
+    color: var(--main);
+    margin-left: -9px;
+}
+
+.logo h1{
+    margin: auto;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    color: var(--main);
+}
+
+.logo:hover{
+    animation: titulo 2s alternate infinite; 
+    cursor: pointer;
+}
+
+/*Game*/
+
+.groups-button-container{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.groups-button{
+    font-size: 1em;
+    font-style: bold; 
+    margin: auto; 
+    padding: 6px 9px; 
+    cursor: pointer; 
+    color: #D3CADC;
+    border: 3px solid var(--headerfooter); 
+    background-color: var(--headerfooter);
+    transition: 0.5s ease-in-out; 
+}
+
+.modal-container-oracle-1,
+.modal-container-oracle-2,
+.modal-container-oracle-3{
+    box-sizing: border-box;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    display: none; 
+    opacity: 0; 
+}
+
+.modal-container-oracle-1.active,
+.modal-container-oracle-2.active,
+.modal-container-oracle-3.active{
+    display: block; 
+    opacity: 1; 
+}
+
+.modal-container-oracle-1{
+    background: var(--oracleModal1);
+}
+
+.modal-container-oracle-2{
+    background: var(--oracleModal2);
+}
+
+.modal-container-oracle-3{
+    background: var(--oracleModal3);
+}
+
+
+.oracle-start-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left:auto;
+    margin-right: auto; 
+    margin-top: -130px;
+}
+
+.input-oracle{
+    width: 400px;
+    height: 30px;
+    font-size: 2.5rem;
+    font: 'Montserrat' thin;
+    letter-spacing: 2px; 
+    font-weight: 100;
+    opacity: 0.5;
+    background: transparent; 
+    border-radius: 5px;
+    box-shadow: black 0px 22px 70px 10px;
+    text-align: center; 
+    color: #fff;
+}
+
+.oracle-start{
+    font-size: 1em;
+    font-weight: 20px; 
+    margin: 40px; 
+    padding: 5px 8px; 
+    cursor: pointer; 
+    color: var(--headerfooter);
+    border: 3px solid var(--text);
+    background-color: var(--text);
+    transition: transform 0.5s ease-in-out; 
+    box-shadow: green 5px 17px 50px 5px;
+}
+
+
+
+
+.oracle-start:hover{
+    transform: scale(1.1); 
+}
+
+
+.close-icon-oracle{
+    position: absolute; 
+    top: 0;
+    right: 0; 
+    padding: 1rem; 
+    margin-bottom: auto; 
+    margin-left: auto; 
+    cursor: pointer;  
+}
+
+.oracle-consult-1,
+.oracle-consult-2,
+.oracle-consult-3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 3rem;
+    font-weight: bold; 
+    font-style: 'Montserrat' regular;
+    color: var(--oracleTitle1)
+}
+
+.oracle-consult-3{
+    color: var(--oracleTitle3)
+}
+
+.sprite-container{
+   display: flex; 
+   justify-content: center;
+   align-items: center; 
+   
+}
+
+.sprite2-transparente{
+    display: none;
+    opacity: 0;
+}
+
+.sprite3,
+.sprite3-transparente{
+    display: none; 
+    opacity: 0; 
+}
+
+.sprite3.active,
+.sprite3-transparente.active{
+    display: block; 
+    opacity: 1; 
+}
+
+.oracle-1,
+.oracle-2,
+.oracle-3 {
+    display: flex; 
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px; 
+    margin-top: -250px;
+}
+
+.oracle-card1-1,
+.oracle-card1-2,
+.oracle-card1-3{
+    display: flex;
+    align-items: center; 
+    height: 400px;
+    width: 300px; 
+    background: #fff; 
+    border-radius: 10px;
+    padding: 2px;
+    justify-content: center; 
+    box-shadow: -1px 8px 69px 24px rgb(0, 0, 0);
+    -webkit-box-shadow: -1px 8px 69px 24px rgb(0, 0, 0);
+    -moz-box-shadow: -1px 8px 69px 24px rgb(0, 0, 0);
+}
+
+
+.oracle-card1-1,
+.oracle-card1-3{
+    flex-direction: column; 
+}
+
+
+.oracle-card2-1,
+.oracle-card2-2,
+.oracle-card2-3{
+    display: flex;
+    align-items: right; 
+    flex-direction: column;
+    height: 400px;
+    width: 300px; 
+    background: #fff; 
+    border-radius: 10px;
+    padding: 2px; 
+    box-shadow: -1px 8px 69px 24px rgb(0, 0, 0);
+    -webkit-box-shadow: -1px 8px 69px 24px rgb(0, 0, 0);
+    -moz-box-shadow: -1px 8px 69px 24px rgb(0, 0, 0);
+}
+
+.titleText-1,
+.titleText-2,
+.titleText-3{ 
+    font-size: 3rem;
+    font-weight: bold;
+    color:var(--oracleTitle1);
+    font-family: Montserrat, regular;
+}
+
+
+.titleText-3{
+    color:var(--oracleTitle3);
+}
+
+.bodyText-1,
+.bodyText-2,
+.bodyText-3{
+    font-size: 1.5rem;
+    font-family: Montserrat, regular;
+    font-weight: bold; 
+    color: var(--oracleBody1);
+}
+
+.titleText-1.active,
+.bodyText-1.active,
+.titleText-2.active,
+.bodyText-2.active,
+.titleText-3.active,
+.bodyText-3.active{
+    animation: appear 1s ease-in-out
+}
+
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1; 
+    }
+}
+
+
+.ball-oracle{
+    animation: cristalBall 2s alternate infinite;
+}
+
+.hand1{
+    
+    animation: hand1 2s  alternate infinite; 
+}
+
+.hand2{
+    animation: hand2 2s alternate infinite; 
+}
+
+@keyframes cristalBall{
+    0%{
+        filter: brightness(10);
+        filter:contrast(1);
+
+    }
+    100%{
+        filter: brightness(0.5);
+        filter: contrast(0);
+    }
+}
+
+@keyframes hand1{
+   
+    100%{
+        transform:translate(-10px) rotate(-2deg);
+    }
+}
+
+@keyframes hand2{
+    100%{
+        transform:translate(-10px) rotate(-2deg);
+    }
+}
+
+
+@media(max-width: 767px){
+    
+   
+
+    .sprite2{
+        display: none;
+    }
+
+     .sprite2-transparente{
+        display: block; 
+        opacity: 1;
+    }
+
+
+
+    .input-oracle{
+        width: 200px;
+        height: 30px;
+        font-size: 1.7rem;
+        letter-spacing: none; 
+        margin-left: 5px; 
+    }
+
+
+    .oracle-start{
+        padding: 0; 
+    }
+
+    .oracle-consult-1,
+    .oracle-consult-2,
+    .oracle-consult-3{
+        font-size: 1.5rem; 
+    }
+
+    .oracle-1,.oracle-2,.oracle-3{
+        display: flex; 
+        flex-direction: column; 
+        margin: 0; 
+        align-items: center; 
+        padding: 0; 
+    }
+
+
+
+    .oracle-card1-1 > .titleText-1,
+    .oracle-card1-2 > .titleText-2,
+    .oracle-card1-3 > .titleText-3{
+        margin-top: -200px;
+    }
+
+    .oracle-card2-1,.oracle-card2-2,.oracle-card2-3{
+        margin-top: -200px; 
+    }
+
+
+ 
+    .titleText-1,
+    .titleText-2,
+    .titleText-3{
+        font-size: 1rem; 
+    }
+
+    .bodyText-1,
+    .bodyText-2,
+    .bodyText-3{
+        font-size: 0.9rem; 
+    }
+}
